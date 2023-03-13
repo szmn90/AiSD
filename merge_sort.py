@@ -7,8 +7,8 @@ def merge_sort(arr):
         merge_sort(left_arr)
         merge_sort(right_arr)
 
-        i = 0  # right_arr index
-        j = 0  # left_arr index
+        i = 0  # left_arr index
+        j = 0  # right_arr index
         k = 0  # merged_arr index
 
         while i < len(left_arr) and j < len(right_arr):
